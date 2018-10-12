@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { createStore } from 'redux';
+
 
 class App extends Component {
   render() {
@@ -9,10 +9,9 @@ class App extends Component {
       </div>
     )
   }
-}
 
-export default App;
+  export default App;
 
-// const hello = () => ('hello');
-// const store = createStore(hello);
+    // const hello = () => ('hello');
+    // const store = createStore(hello);
 // console.log(store);
